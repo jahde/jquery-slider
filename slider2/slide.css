@@ -1,0 +1,61 @@
+#gallery {
+    background-color: blue;
+    width: 450px;
+    height: 175px;
+}
+
+#slider {
+    width: 453px;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    overflow:hidden;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#slider .slides {
+    display: block;
+    width: 5000px;
+}
+
+
+#slider .box {
+    display: block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+.button-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 40%;
+}
+
+.circle {
+    bottom:0;
+    border-radius: 50%;
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.clicked {
+    border: 2px solid orange;
+}
+
+img {
+    margin-top: 20%;
+    margin-left: 12%;
+    display: block;
+}
+
+.clicked {
+
+}
