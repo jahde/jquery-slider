@@ -1,0 +1,53 @@
+#gallery {
+    background-color: blue;
+    width: 450px;
+    height: 175px;
+}
+
+#outer-box {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    overflow:hidden;
+    box-sizing: border-box;
+}
+
+.button-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 40%;
+}
+
+.circle {
+    bottom:0;
+    border-radius: 50%;
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.clicked {
+    border: 2px solid orange;
+}
+
+.box {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+    padding-left: 18px;
+    padding-right: 5px;
+}
+
+img {
+    margin-top: 20%;
+    margin-left: 12%;
+    display: block;
+}
+
+.clicked {
+
+}
